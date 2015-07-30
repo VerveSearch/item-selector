@@ -1,0 +1,25 @@
+ .menu-item, .menu-item:hover{
+ 	-webkit-box-shadow:0px 2px 10px rgba(0,0,0,.3),0px 0px 1px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.15);
+    box-shadow: 0px 2px 10px rgba(0,0,0,.3),0px 0px 1px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.15);
+    text-align: center;
+    -webkit-transition: background-color 0.5s cubic-bezier(0.26, 0.86, 1, 1);
+    -moz-transition: background-color 0.5s cubic-bezier(0.26, 0.86, 1, 1);
+    -o-transition: background-color 0.5s cubic-bezier(0.26, 0.86, 1, 1);
+    -ms-transition: background-color 0.5s cubic-bezier(0.26, 0.86, 1, 1);
+    transition: background-color 0.5s cubic-bezier(0.26, 0.86, 1, 1);
+  }
+.menu-item{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #424242;
+  color: #fff;
+  display: inline-block;
+  margin: 0 7px;
+  cursor: pointer;
+  line-height: 3.2em;
+}
+.active{
+box-shadow: 0px 2px 10px rgba(0,0,0,.3),0px 0px 1px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.15);
+  background-color: rgba(62,62,62,0.7);
+}
